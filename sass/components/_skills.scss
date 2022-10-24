@@ -1,0 +1,57 @@
+/* skills-переваги */
+.skills {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.skills__container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+  }
+  
+  .skills__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-team);
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+  
+  .skills__list {
+    display: flex;
+    gap: 30px;
+  
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-team);
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+  
+  .skills__item {
+    display: block;
+  }
+  
+  .skills__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+  }
+  
+  .skills__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+    margin-top: 10px;
+  }
