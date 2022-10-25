@@ -1,5 +1,5 @@
  /* header */
- .header-page {
+ .header {
   border-bottom: 1px solid var(--header-border-bottom);
   background: var(--text-color);
 
@@ -10,20 +10,3 @@
     
   }
 }
-
-  
-/* portfolio */
-
-
-  
-  .active.current::after {
-    display: block;
-    content: "";
-    position: absolute;
-    width: 78px;
-    height: 4px;
-    top: 80px;
-  
-    background: var(--accent-color);
-    border-radius: 2px;
-  }

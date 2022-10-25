@@ -172,11 +172,12 @@
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-}
-.agree-link {
+
+  &:link {
   margin-left: 5px;
   text-decoration-line: underline;
   color: var(--accent-color);
+  }
 }
 .submit-text {
   font-weight: 700;
